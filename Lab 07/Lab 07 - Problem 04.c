@@ -25,6 +25,14 @@ int main()
 	{
 		for(int j = 0; j < order; j++)
 		{
+			printf("%d ", matT[i][j]);
+		}
+		printf("\n");
+	}
+	for(int i = 0; i < order; i++)
+	{
+		for(int j = 0; j < order; j++)
+		{
 			if(mat[i][j] == matT[i][j])
 				count++;
 		}
